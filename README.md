@@ -1,10 +1,10 @@
-Java JPA and PostgreSQL Project
+@Java JPA and PostgreSQL Project
 
 
 This project demonstrates how to use Java Persistence API (JPA) with PostgreSQL. It includes a set of SQL scripts to create and populate tables, and it uses Postman for testing the API endpoints.
 
 
-Table of Contents:
+1)Table of Contents:
 
 •	Getting Started
 
@@ -28,12 +28,12 @@ Table of Contents:
 
 
 
-Getting Started:
+2)Getting Started:
 
 These instructions will help you set up and run the project on your local machine for development and testing purposes.
 
 
-Prerequisites:
+3)Prerequisites:
 
 Java Development Kit (JDK) 11 or higher
 
@@ -43,10 +43,10 @@ Maven
 
 Postman
 
-Installation:
+4)Installation:
 
 
-Clone the repository:
+A)Clone the repository:
 
 git clone https://github.com/Julkar1/java_api_request.git
 
@@ -54,21 +54,20 @@ cd src/main/java/com/jtfc/app
 
 
 
-Set up PostgreSQL:
+B)Set up PostgreSQL:
 
 Create a new database in PostgreSQL.
 
-Update the application.properties file with your PostgreSQL database credentials.
+C)Update the application.properties file with your PostgreSQL database credentials.
 
 
-
-Build the project:
+D)Build the project:
 
 mvn clean install
 
 
 
-Running the Application
+5)Running the Application
 
 
 1.Start the application:
@@ -82,7 +81,7 @@ mvn spring-boot:run
 
 
 
-Database Schema
+6)Database Schema
 
 The project includes the following tables:
 
@@ -100,7 +99,7 @@ accident
 
 
 
-SQL Script
+7)SQL Script
 
 CREATE TABLE person (
 nid varchar(255) PRIMARY KEY,
@@ -138,7 +137,7 @@ FOREIGN KEY(acc_date) REFERENCES log(log_date)
 
 
 
-API Endpoints
+8)API Endpoints
 
 
 GET /person
@@ -153,7 +152,7 @@ GET /accident
 
 
 
-Sample Data:
+9)Sample Data:
 
 
 
@@ -201,7 +200,7 @@ INSERT INTO accident VALUES ('20-Aug-14', 'Arif', 15000);
 
 
 
-Queries:
+10)Queries:
 
 
 
