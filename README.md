@@ -227,3 +227,15 @@ INSERT INTO accident VALUES ('20-Aug-14', 'Arif', 15000);
 /*(l)*/SELECT acc_date FROM PERSON mp, OWNS mo, LOG ml, ACCIDENT ma WHERE mp.nid= mo.nid AND mo.licence= ml.licence AND ml.log_date= ma.acc_date AND name= 'Arif';
 
 /*(m)*/UPDATE PERSON SET address= 'Natore' WHERE name= 'Arif';
+
+11)Contributing
+
+If you would like to contribute to this project, please fork the repository and submit a pull request.
+
+
+12)License
+
+This project is licensed under the MIT License.
+
+
+Feel free to customize this template to better fit your project. If you have any specific sections you want to add or modify, let me know!
